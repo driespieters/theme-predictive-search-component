@@ -2,7 +2,7 @@ import PredictiveSearch from "@shopify/theme-predictive-search";
 
 var DEFAULT_PREDICTIVE_SEARCH_API_CONFIG = {
   resources: {
-    type: [PredictiveSearch.TYPES.PRODUCT],
+    type: [PredictiveSearch.TYPES.PRODUCT,PredictiveSearch.TYPES.COLLECTION,PredictiveSearch.TYPES.ARTICLE],
     options: {
       unavailable_products: PredictiveSearch.UNAVAILABLE_PRODUCTS.LAST,
       fields: [
